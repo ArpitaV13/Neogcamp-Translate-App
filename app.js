@@ -2,7 +2,7 @@ var translateBtn=document.querySelector('#button');
 
 var txtOutput=document.querySelector('#outputTxt');
 
-var serverUrl="https://api.funtranslations.com/translate/ebonics.json";
+var serverUrl="https://api.funtranslations.com/translate/pirate.json";
 
 function getUrl(text){
  return serverUrl+"?"+"text="+text;
